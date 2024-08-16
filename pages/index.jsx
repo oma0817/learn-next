@@ -1,3 +1,4 @@
+import ProductHeader from '@/components/ProductHeader';
 import ProductList from '@/components/ProductList';
 
 // '/'에 해당하는 페이지 컴포넌트
@@ -7,7 +8,7 @@ import ProductList from '@/components/ProductList';
 function ProductPage() {
   return (
     <div>
-      <h1>상품목록 페이지</h1>
+      <ProductHeader title="상품 목록 페이지" />
       <ProductList />
     </div>
   );
